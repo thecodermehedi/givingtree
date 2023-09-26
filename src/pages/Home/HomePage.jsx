@@ -18,11 +18,9 @@ const Home = () => {
       const queryCards = cards.filter((card) =>
         card.category.toLowerCase().includes(query.toLowerCase())
       );
-      setNewCards(queryCards);
-      setQuery("");
+      queryCards.length > 0 ? setNewCards(queryCards) : setNewCards(cards);
     } else if (query === "") {
       setNewCards(cards);
-      setQuery("");
     }
   };
   return (

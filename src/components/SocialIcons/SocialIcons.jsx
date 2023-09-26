@@ -8,22 +8,22 @@ const SocialIcons = () => {
   return (
     <ul className="flex gap-4 text-3xl">
       <li className="hover:text-green-500">
-        <NavLink to={"https://fb.com/givingtree"} target="_blank">
+        <NavLink to={"https://givingtree.vercel.app"} target="_blank">
           <FaFacebook />
         </NavLink>
       </li>
       <li className="hover:text-green-500">
-        <NavLink to={"https://instagram.com/givingtree"} target="_blank">
+        <NavLink to={"https://givingtree.vercel.app"} target="_blank">
           <FaInstagram />
         </NavLink>
       </li>
       <li className="hover:text-green-500">
-        <NavLink to={"https://linkedin.com/in/givingtree"} target="_blank">
+        <NavLink to={"https://givingtree.vercel.app"} target="_blank">
           <FaLinkedin />
         </NavLink>
       </li>
       <li className="hover:text-green-500">
-        <NavLink to={"https://x.com/givingtree"} target="_blank">
+        <NavLink to={"https://givingtree.vercel.app"} target="_blank">
           <FaXTwitter />
         </NavLink>
       </li>
